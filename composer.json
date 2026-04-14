@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/vicidial-grafana-realtime-dashboard",
+    "description": "VICIdial WebSocket Real-Time Dashboard with Grafana + Node.js",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "grafana",
+        "realtime",
+        "dashboard"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-grafana-realtime-dashboard/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialGrafanaRealtimeDashboard\\": "src/"
+        }
+    }
+}
